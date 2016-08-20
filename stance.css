@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: none;
+}
+
+.sidebar {
+	background: url(../img/sidebar-bg.png) no-repeat ;
+	min-height: 352px;
+}
+.sidebar p {
+	font-size: 22px;
+	text-align: center;
+	line-height: 0.9;
+	color: #fff;
+	padding: 15px 0;
+}
+
+.sidebar p:first-child {
+	padding: 10px 27px 18px 0;
+}
+.wrap-select {
+	background-color: #fff;
+	border-radius: 20px;
+	overflow: hidden;
+	width: 90%
+}
+
+.sidebar .form-group {
+    width: 85%;
+    left: 5.5%;
+    position: relative;
+}
+.sidebar .form-group label {
+	padding: 5px 0 0 3px;
+	color: #fff;
+
+}
+.sidebar .form-control {
+	border-radius: none;
+	border: none;
+}
+
+#focusedInput {
+	width: 77%;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.form-input-last {
+	margin-top: 10px;
+}
+.wrap-input {
+	width: 50%;
+	float: left;
+}
+.sidebar-bottom-button {
+	padding: 10px 34px;
+    border-radius: 20px;
+    margin-top: 10px;
+	b
+}
+.sidebar-bottom-button:active {
+	border-radius: 20px;
+	border: none;
+}
+
+
+.myButton-sidebar {
+	background: url(../img/bottom-btn-bg.png);
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:7px 29px;
+	text-decoration:none;
+    position: relative;
+    left: 19%;
+    top: 12px;
+}
+.myButton-sidebar:hover {
+	color: #fff;
+	top: 13px
+}
+.myButton-sidebar:focus {
+	color: #fff;
+}
+.myButton-sidebar:active {
+	top:14px;
+}
+
